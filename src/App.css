@@ -31,3 +31,97 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color:rgba(0,150, 200,1);
+  background-image: url("images/back.jpg");
+}
+
+
+.header{
+  background-color: #fff;
+  height:100px;
+}
+
+.header img{
+  margin: 0 10px;
+  float:left;
+  display: block;
+}
+
+.header h2{
+  float:left;
+  display: block;
+}
+.wrapper{
+  background-color: #fafafa;
+  width:1024px;
+  margin:0 auto;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 5px 10px 0 #000;
+}
+
+
+#menu-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#menu-list li{
+  float:left;
+}
+
+#menu-list li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#menu-list li a:hover {
+  background-color: #111111;
+}
+
+#menu-list :last-child{
+  float:right;
+}
+
+.content{
+  padding: 10px;
+}
+
+.data-table{
+  margin:0 auto;
+  border-collapse: collapse;
+}
+
+.data-table, .data-table th, .data-table td {
+  border: 1px solid black;
+}
+
+select {
+  margin:0 5px;
+}
+
+.clearfix { clear: both; }
+
+input{
+  margin:0 5px;
+}
+
+.btn-data{
+  margin:0 5px;
+}
+
+.data-input {
+  display:inline;
+  float:left;
+}
+
+.auth-wrapper, .btn-auth {
+  margin: 0px auto;
+}
